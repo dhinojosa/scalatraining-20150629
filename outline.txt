@@ -1,0 +1,145 @@
+Calling sqoop, HIVE from command line (I don't know SQOOP or HIVE current, need help from Raj)
+
+Scala (Day 1)
+   -------------
+
+   - Introduction
+
+   What is Scala? ✓
+   What are the positives of Scala? ✓
+   What are the negatives of Scala? ✓
+
+   - Setup
+
+   Downloading Scala ✓
+   Installing Scala ✓
+   Creating a script in Scala ✓
+   Creating an application in Scala ✓
+
+   Lab: Creating a compiled class ✓
+
+   - Scala Basics  ✓
+   `val` and `var` ✓
+   lazy val ✓
+   Bending Variables and Values to your Will! ✓
+   Byte, Short, Int, Long, Floats, Booleans, and Doubles ✓
+   if, else if, else, while, do while, for "loops" ✓
+   String formatting and interpolation ✓
+   Any, AnyVal, AnyRef ✓
+
+
+   - Scala Methods ✓
+   Basic Methods ✓
+   Different Return Types ✓
+   About `Unit` and Conventions ✓
+   Recursion ✓
+   Name Flexibility ✓
+   Right-Associative Colons ✓
+
+Lab: Running shell commands: (Homework)
+   1. capturing return codes
+   2. capturing script outputs
+
+   - Scala Classes
+   Classes ✓
+   Constructors ✓
+   Case Classes ✓
+   Subclassing  ✓
+   Determining Instances ✓
+   Casting ✓
+   Preconditions ✓
+
+   Lab: Calling JDBC driver to fetch data from a DB
+
+Scala (Day 2)
+   -------------
+   -- Scala `Object` ✓
+   Singletons    ✓
+   Companion Objects ✓
+
+   -- The magic `apply` method ✓
+
+   -- Scala `Option` ✓
+   `Some`         ✓
+   `None`         ✓
+
+   -- Scala Tuples   ✓
+
+   -- Basic Collections
+   Lists                     ✓
+   Maps
+   Sets
+   Arrays and Repeated Parameters
+   Strings
+   Ranges
+   Streams
+
+   -- Higher Order Functions
+   Creating a function     ✓
+   What is actually a function? ✓
+   Is it a method or is it a function?
+   Closures
+   Functions returning other functions
+   By-Name Parameters
+
+
+Scala (Day 3)
+-------------
+   Collections with Functions
+   The Importance of a Language with a Clean API
+   Using Lists with Functions
+   Using Sets with Functions
+   Using Maps with Functions
+   Using Strings with Functions
+   Views
+   Parallel Processing
+   For-Comprehensions and Monadic Methods
+
+   Lab: Reading a configuration/parameter file
+
+   -- Implicits
+   Basic Implicits
+   Implicit Wrapping
+   Implicit Conversion
+   Implicit Defaults
+   Type Classes
+
+   Lab: Creating a common actions in library file and importing it into a script
+
+   Lab: Calling a web service to parse a JSON and XML files
+
+   -- Actors
+   About Akka
+   Setting up an ActorSystem
+   Setting up a Basic Actor
+   About Futures
+   Setting up an ask Actor
+
+Lab: Running concurrent/parallel process (simple Actor system)
+
+Play Framework Outline (Day 4)
+   ----------------------
+
+   - Introduction
+   About Play Framework
+   Starting a new application
+   Stopping your application
+   Understanding the Play Folder Structure
+
+   - Components of Play
+   Introducing Controllers
+   Introducing Actions
+   Using play.api.mvc.Result
+
+   - Forms in Play
+   Routing
+   Forms
+   Validation
+   Reverse Routing
+   Form Helpers
+
+   - Database
+   Persisting To Database
+   Querying Database
+   Caching Database Entries
+   Templating
